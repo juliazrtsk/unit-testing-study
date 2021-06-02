@@ -4,7 +4,8 @@
   "description": "Jest and Enzyme",
   "author": "zrtsk <julia.zrtsk@gmail.com>",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "eslint": "^7.27.0",
@@ -15,5 +16,8 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "jest": "^27.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
